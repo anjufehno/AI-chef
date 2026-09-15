@@ -10,11 +10,11 @@ AI Chef lets a user enter ingredients they already have and request a recipe sug
 - Maintain ingredient state in React
 - Generate a recipe from the current ingredient list
 - Render AI-generated Markdown-style recipe content
-- Experiment with Claude and Hugging Face inference APIs
+- Integrate the Anthropic SDK in a frontend prototype
 
 ## Tech Stack
 
-`React` · `JavaScript` · `Anthropic SDK` · `Hugging Face Inference` · `CSS`
+`React` · `JavaScript` · `Anthropic SDK` · `CSS`
 
 ## What I Practised
 
@@ -22,7 +22,7 @@ AI Chef lets a user enter ingredients they already have and request a recipe sug
 - asynchronous API calls
 - conditional rendering
 - form handling
-- integrating external AI services into a frontend prototype
+- integrating an external AI service into a frontend prototype
 
 ## Run Locally
 
@@ -33,7 +33,7 @@ npm install
 npm start
 ```
 
-The prototype expects the relevant API credentials in the local environment.
+The prototype expects the relevant API credential in the local environment.
 
 ## Security Note
 
