@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# AI Chef
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> **Learning project** · React experiment with generative AI recipe suggestions.
 
-## Available Scripts
+AI Chef lets a user enter ingredients they already have and request a recipe suggestion generated from that ingredient list.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Add ingredients interactively
+- Maintain ingredient state in React
+- Generate a recipe from the current ingredient list
+- Render AI-generated Markdown-style recipe content
+- Experiment with Claude and Hugging Face inference APIs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`React` · `JavaScript` · `Anthropic SDK` · `Hugging Face Inference` · `CSS`
 
-### `npm test`
+## What I Practised
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React state management
+- asynchronous API calls
+- conditional rendering
+- form handling
+- integrating external AI services into a frontend prototype
 
-### `npm run build`
+## Run Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/anjufehno/AI-chef.git
+cd AI-chef
+npm install
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The prototype expects the relevant API credentials in the local environment.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Security Note
 
-### `npm run eject`
+This repository is an **educational prototype**. Its direct browser-side AI SDK integration is useful for experimentation but is **not the architecture I would use for production secrets**. A production version should proxy AI requests through a protected server-side API.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Status
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Kept as a learning project demonstrating early work with React and generative-AI integrations.
